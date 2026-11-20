@@ -427,7 +427,7 @@
    ===================================================================== */
 const CONFIG = {
   sottotitolo: "Classifica generale",
-  aggiornamento: "13 novembre 2026",      // es. "11 novembre 2026" (lascia vuoto per nasconderlo)
+  aggiornamento: "20 novembre 2026",      // es. "11 novembre 2026" (lascia vuoto per nasconderlo)
   premio: "Un montepremi: una scatola contenente da uno a millemila monete d’oro o punti Lafarmacia.",
   esempio: false
 };
@@ -459,35 +459,40 @@ const GIORNATE = [
   },
   {
     nome: "Megaquiz",
-    giocato: false,
+    giocato: true,
     quando: "Venerdì 20 novembre",
-    intro: "27 domande metteranno a dura prova la vostra conoscenza e la vostra arguzia, per aggiudicarvi un complessivo di 81 punti!",
+    intro: "Il terzo gioco, già giocato: 27 domande hanno messo a dura prova conoscenza e arguzia dei partecipanti, per aggiudicarsi un complessivo di 81 punti. I punti sono nella colonna G3 della classifica.",
     regole: [],
     punti: ["81 punti complessivi in palio"]
   },
-  { nome: "Il tuo collega in una slide", giocato: false, intro: "", regole: [], punti: [] },
-  { nome: "Quanto sta bene la gente?", giocato: false, intro: "", regole: [], punti: [] }
+  { nome: "Quanto sta bene la gente?", giocato: false, intro: "", regole: [], punti: [] },
+  { nome: "TBD", giocato: false, intro: "Gioco ancora da definire.", regole: [], punti: [] }
 ];
 
 const PARTECIPANTI = [
-  ["Crucitti", [16, 18, null, null, null]],
-  ["Peditto", [11, 45, null, null, null]],
-  ["Fiorucci", [2, 30, null, null, null]],
-  ["Cilia", [7, 31, null, null, null]],
-  ["Nancy", [5, 56, null, null, null]],
-  ["Papetti", [0, 43, null, null, null]],
-  ["Tito", [7, 29, null, null, null]],
-  ["Zanolli", [0, 34, null, null, null]],
-  ["Ponzoni", [7, 32, null, null, null]],
-  ["Pinto", [2, 7, null, null, null]],
-  ["Pomer", [2, 22, null, null, null]],
-  ["Volontè", [0, 0, null, null, null]],
-  ["Pavin", [3, 13, null, null, null]],
-  ["Clizia", [7, 12, null, null, null]],
-  ["Stefy", [2, 35, null, null, null]],
-  ["Mirabile", [0, 15, null, null, null]],
-  ["Rebecca", [0, 12, null, null, null]],
-  ["Edo", [0, 0, null, null, null]]
+  ["Crucitti", [16, 18, 54, null, null]],
+  ["Peditto", [11, 45, 45, null, null]],
+  ["Fiorucci", [2, 30, 0, null, null]],
+  ["Cilia", [7, 31, 48, null, null]],
+  ["Nancy", [5, 56, 30, null, null]],
+  ["Papetti", [0, 43, 51, null, null]],
+  ["Tito", [7, 29, 0, null, null]],
+  ["Zanolli", [0, 34, 39, null, null]],
+  ["Ponzoni", [7, 32, 0, null, null]],
+  ["Pinto", [2, 7, 42, null, null]],
+  ["Pomer", [2, 22, 42, null, null]],
+  ["Volontè", [0, 0, 0, null, null]],
+  ["Pavin", [3, 13, 33, null, null]],
+  ["Clizia", [7, 12, 33, null, null]],
+  ["Stefy", [2, 35, 36, null, null]],
+  ["Mirabile", [0, 15, 42, null, null]],
+  ["Rebecca", [0, 12, 0, null, null]],
+  ["Edo", [0, 0, 0, null, null]],
+  ["Seif Serag", [1, 0, 39, null, null]],
+  ["Francesco de Mayda", [0, 0, 48, null, null]],
+  ["Federica Ucella", [0, 0, 39, null, null]],
+  ["Renz", [0, 0, 39, null, null]],
+  ["Iacopo", [0, 0, 0, null, null]]
 ];
 /* ===================== FINE BLOCCO DATI ============================== */
 
